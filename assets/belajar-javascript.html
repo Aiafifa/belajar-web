@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar js</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- js Inline -->
+     <button class="btn btn-danger" 
+     onclick="alert('Hayo kenapa saya masi di klik?')">
+      Jangan klik ini
+    </button>
+
+    <label > Masukkan nama:</label>
+    <input type="text" name="nama" id="nama" class="form-control">
+    <button id="kirim">Submit</button>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h4>Login untuk masuk</h4>
+                <label > Email :</label>
+                <input type="email" name="email" id="email" class="form-control">
+                <label>Password :</label>
+                <input type="password" name="password" id="password">
+                <button class="btn btn-primary w-100" id="login"> Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- js internal -->
+<script>
+    let nama = document.getElementById("nama")
+    let kirim = document.getElementById("kirim")
+
+
+    kirim.addEventListener("click",function (){
+        let konfirmasi = confirm("Apakah anda yakin nama kamu " + nama.value)
+        if (konfirmasi){
+            alert("Halo " + nama.value)
+        } else{
+            alert("Hmmz sus...")
+        }
+    })
+</script>
+
+<!-- JS Eksternal -->
+ <script src="assets/js/script.js"></script>
+</html>
