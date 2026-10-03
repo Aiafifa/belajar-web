@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-header{
+    background-color: #f8f8f8;
+}
+
+.header-logo img{
+    width: 60px;
+    margin: 10px 0;
+    
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    
+}
+.header-content h1{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #0a0a0a;
+    margin-top: -16px;
+    
+}
+.subtitle {
+  font-family: 'Calibri', sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin-left: 20px;
+  
+  
+}
+.header-sosmed{
+    margin-left: auto;
+    
+}
+.header-sosmed a{
+    text-decoration: none;
+}
+
+.header-sosmed img{
+    width: 30px;
+}  
+.header-sub{
+    background-color: #00631a;
+}
+.header-nav{
+    margin: 0 -20px;
+}
+.header-nav a{
+    padding: 15px 20px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    object-position: bottom;
+}
+.tagline{
+    text-align: center;
+    background-color: #018f26;
+    padding: 40px 20px;
+    margin-top: -5px;
+    color: #ffffff;
+}
+.tagline h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    letter-spacing: 10px;
+}
+#berita {
+    padding: 40px 0px;
+}
+.berita-data{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.berita-gambar img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    
+}
+.berita-deskripsi h4{
+    margin-top: 0px;
+}
+.berita-tombol{
+    text-decoration: none;
+    background-color: #018f26;
+    color: #ffffff;
+    padding: 8px 13px;
+    font-size: 15px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.main-footer{
+    background-color: #212529;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+.footer-logo img{
+    width: 80px;
+    margin: 30px 0;
+}
+.footer-text{
+  color: #ffffff;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 60;
+}
+
+.footer-text p{
+  margin-top:-20px ;
+  margin-bottom: 20px;
+}
+.footer-text .alamat p{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px ;
+    margin-bottom: 20px;
+    
+}
+
+
+.footer-sub{
+    background-color: #000000;
+    margin-top: -20px;
+    text-align: center;
+    padding: 5px;
+}
+.footer-sub p{
+    color: #ffffff;
+}
