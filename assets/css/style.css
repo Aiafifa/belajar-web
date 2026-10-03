@@ -10,10 +10,12 @@ body{
 .container{
     max-width: 1080px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .main-header{
-    background-color: #018f26;
+    background-color: #f8f8f8;
 }
 
 .header-logo img{
@@ -24,12 +26,28 @@ body{
 .header-content{
     display: flex;
     align-items: center;
+    
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    
 }
 .header-content h1{
     margin-left: 20px;
     font-weight: 600;
     font-size: 24px;
-    color: #ffffff;
+    color: #0a0a0a;
+    margin-top: -16px;
+    
+}
+.subtitle {
+  font-family: 'Calibri', sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin-left: 20px;
+  
+  
 }
 .header-sosmed{
     margin-left: auto;
@@ -40,7 +58,7 @@ body{
 }
 
 .header-sosmed img{
-    width: 40px;
+    width: 30px;
 }  
 .header-sub{
     background-color: #00631a;
@@ -87,6 +105,7 @@ body{
     width: 150px;
     height: 150px;
     object-fit: cover;
+    border-radius: 8px;
     
 }
 .berita-deskripsi h4{
@@ -102,7 +121,7 @@ body{
     display: inline-block;
 }
 .main-footer{
-    background-color: rgb(34, 66, 36);
+    background-color: #212529;
 }
 .footer-content {
     display: flex;
@@ -124,19 +143,22 @@ body{
   margin-top:-20px ;
   margin-bottom: 20px;
 }
-.footer-text .alamat{
+.footer-text .alamat p{
+    display: flex;
+    justify-content: space-between;
     margin-top:10px ;
     margin-bottom: 20px;
+    
 }
 
 
 .footer-sub{
-    background-color: #626462;
+    background-color: #000000;
     margin-top: -20px;
     text-align: center;
+    padding: 5px;
 }
 .footer-sub p{
     color: #ffffff;
-    display: inline-block;
-    
 }
+uuuuuuuuuuuuuu
